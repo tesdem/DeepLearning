@@ -1,0 +1,28 @@
+
+# requirements.txt
+```txt
+# Core dependencies
+numpy>=1.19.0
+pandas>=1.2.0
+scikit-learn>=0.24.0
+
+# TensorFlow (1.x version for compatibility with notebook)
+tensorflow==1.15.0
+tensorflow-estimator==1.15.1
+
+# Visualization and notebook tools
+matplotlib>=3.3.0
+jupyter>=1.0.0
+ipython>=7.16.0
+
+# Utilities
+six>=1.15.0
+python-dateutil>=2.8.1
+pytz>=2021.1
+
+# Optional: for better performance
+scipy>=1.6.0
+
+# Note: If using Google Colab, most dependencies are pre-installed
+# For local installation, you may need to install specific versions
+# compatible with your Python environment
